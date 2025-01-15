@@ -1,0 +1,19 @@
+{
+  "name": "api-invoice",
+  "version": "1.0.0",
+  "main": "server.js ",
+  "scripts": {
+    "test": "node --  watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donutcs19/API-Neko-Invoice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donutcs19/API-Neko-Invoice/issues"
+  },
+  "homepage": "https://github.com/donutcs19/API-Neko-Invoice#readme",
+  "description": ""
+}
