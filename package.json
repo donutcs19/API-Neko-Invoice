@@ -15,5 +15,13 @@
     "url": "https://github.com/donutcs19/API-Neko-Invoice/issues"
   },
   "homepage": "https://github.com/donutcs19/API-Neko-Invoice#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
 }
