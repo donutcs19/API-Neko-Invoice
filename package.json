@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js ",
   "scripts": {
-    "test": "node --  watch server.js"
+    "test": "node --  watch server.js",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,15 @@
   "homepage": "https://github.com/donutcs19/API-Neko-Invoice#readme",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
     "mysql2": "^3.12.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "req-flash": "^0.0.3"
   }
 }
