@@ -39,7 +39,7 @@ module.exports = {
           if (error) {
             return res.status(400).send({ error: error.message });
           }
-          return res.status(200).json({ message: "user created" });
+          return res.status(200).send({ message: "user created" });
         }
       );
     } catch (error) {
@@ -55,7 +55,7 @@ module.exports = {
           if (error) {
             return res.status(400).send({ error: error.message });
           }
-          res.status(200).json({ results: results });
+          res.status(200).send({ results: results });y
         }
       );
     } catch (error) {
@@ -71,7 +71,7 @@ module.exports = {
           if (error) {
             return res.status(400).send({ error: error.message });
           }
-          res.status(200).json({ results: results });
+          res.status(200).send({ results: results });
         }
       );
     } catch (error) {
@@ -111,7 +111,7 @@ module.exports = {
             if (error) {
               return res.status(400).send();
             }
-            res.status(200).json({ message: "lastLogin Updated" });
+            res.status(200).send({ message: "lastLogin Updated" });
           }
         );
       } catch (error) {
